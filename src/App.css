@@ -11,13 +11,36 @@
     align-items: center;
     padding: 4px 20px 4px 12px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background-color:#7d5988;
+    /* color:white; */
+    color:white;
+}
+
+.AppHeader h3{
+    margin-right: 1050px;
+}
+
+
+
+.AppHeader button{
+    /* padding:9px; */
+    padding: 9px 10px;
+    border-radius: 10px;
+    background-color: #0FAE96;
+    color: #ECF1F0;
+    border: none;
+    cursor: pointer;
+
 }
 .AppFooter{
 height: 50px;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+color: white;
 border-top: 1px solid rgba(0, 0, 0, 0.15);
+background-color: #e3dbe7;
+
 
 }
 .SideMenuAndPageContent{
@@ -29,10 +52,23 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 .SideMenu{
     height: 100%;
+    background-color:#8f5cec;
+
 }
 .SideMenuVertical{
     height: 100%;
+    background-color:#798eaa;
 }
 .PageContent{
     padding-left: 12px;
+}
+.PageContent button{
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 170px;
+  margin-left:300px;
+  border: none;
+  background-color: #384477;
+  cursor: pointer;
+  color:white;
 }

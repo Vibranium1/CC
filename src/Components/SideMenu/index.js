@@ -1,5 +1,5 @@
 import {
-  AppstoreOutlined,
+  AppstoreOutlined,HomeOutlined
 } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useEffect, useState } from "react";
@@ -28,7 +28,7 @@ function SideMenu() {
         items={[
             {
             label: "Home",
-            icon: <AppstoreOutlined />,
+            icon: <HomeOutlined />,
             key: "/",
           },
           {
